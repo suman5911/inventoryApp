@@ -21,4 +21,3 @@ jobs:
           aws-region: us-east-1
       - name: Copy website to S3
         run: aws s3 sync . s3://inventoryapp-sumanpreet-2026 --exclude "*" --include "index.html"
-W
